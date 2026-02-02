@@ -5,7 +5,7 @@ from collections import defaultdict, deque
 from datetime import timedelta
 import math
 
-class SkewEdgeIntradayReversalStrategy(QCAlgorithm):
+class SkewReversalStrategy(QCAlgorithm):
     
     def Initialize(self):
         # Dates, currency, capital configured in config.yml (v2)
